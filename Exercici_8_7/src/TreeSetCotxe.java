@@ -21,25 +21,13 @@ public class TreeSetCotxe {
 		treeSetCotxes1.add(new CotxeComparat("Seat", "Ibiza", 1600, 4));
 		
 		// fill 5 cars in the displacements comparator list number 2.
-		treeSetCotxes2.add(new CotxeComparat("Alfa Romeo", "Giulia", 2900, 6));
-		treeSetCotxes2.add(new CotxeComparat("Dacia", "Sandero", 1200, 4));
-		treeSetCotxes2.add(new CotxeComparat("Ford", "Focus", 2000, 4));
-		treeSetCotxes2.add(new CotxeComparat("Opel", "Insignia", 2200, 4));
-		treeSetCotxes2.add(new CotxeComparat("Seat", "Ibiza", 1600, 4));
+		treeSetCotxes2.addAll(treeSetCotxes1);
 		
 		// fill 5 cars in the pot Fisc comparator list number 1.
-		treeSetCotxes3.add(new Cotxe("Alfa Romeo", "Giulia", 2900, 6));
-		treeSetCotxes3.add(new Cotxe("Dacia", "Sandero", 1200, 4));
-		treeSetCotxes3.add(new Cotxe("Ford", "Focus", 2000, 4));
-		treeSetCotxes3.add(new Cotxe("Opel", "Insignia", 2200, 4));
-		treeSetCotxes3.add(new Cotxe("Seat", "Ibiza", 1600, 4));
+		treeSetCotxes3.addAll(treeSetCotxes1);
 		
 		// fill 5 cars in the pot Fisc comparator list number 2.
-		treeSetCotxes4.add(new Cotxe("Alfa Romeo", "Giulia", 2900, 6));
-		treeSetCotxes4.add(new Cotxe("Dacia", "Sandero", 1200, 4));
-		treeSetCotxes4.add(new Cotxe("Ford", "Focus", 2000, 4));
-		treeSetCotxes4.add(new Cotxe("Opel", "Insignia", 2200, 4));
-		treeSetCotxes4.add(new Cotxe("Seat", "Ibiza", 1600, 4));
+		treeSetCotxes4.addAll(treeSetCotxes1);
 		
 		// 2: Extract like Lifo and fifo each of them.
 		// LIFO 1.a
