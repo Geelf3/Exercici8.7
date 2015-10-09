@@ -6,26 +6,26 @@ public class TreeSetCotxe {
 	public static void main(String[] args) {
 		// 1: Create 4 TreeSets.
 		// a) 2 TreeSets with a comparator of displacements. 
-		TreeSet<ComparadorCilindrada> treeSetCotxes1 = new TreeSet<ComparadorCilindrada>();
-		TreeSet<ComparadorCilindrada> treeSetCotxes2 = new TreeSet<ComparadorCilindrada>();
+		TreeSet<CotxeComparat> treeSetCotxes1 = new TreeSet<CotxeComparat>();
+		TreeSet<CotxeComparat> treeSetCotxes2 = new TreeSet<CotxeComparat>();
 		// b) 2 TreeSets with a comparator of pot.fiscal.
 		ComparadorPotFisc comparadorPotenciaFisc = new ComparadorPotFisc();
 		TreeSet<Cotxe> treeSetCotxes3 = new TreeSet<Cotxe>(comparadorPotenciaFisc);
 		TreeSet<Cotxe> treeSetCotxes4 = new TreeSet<Cotxe>(comparadorPotenciaFisc);
 		
 		// fill 5 cars in the displacements comparator list number 1.
-		treeSetCotxes1.add(new ComparadorCilindrada("Alfa Romeo", "Giulia", 2900, 6));
-		treeSetCotxes1.add(new ComparadorCilindrada("Dacia", "Sandero", 1200, 4));
-		treeSetCotxes1.add(new ComparadorCilindrada("Ford", "Focus", 2000, 4));
-		treeSetCotxes1.add(new ComparadorCilindrada("Opel", "Insignia", 2200, 4));
-		treeSetCotxes1.add(new ComparadorCilindrada("Seat", "Ibiza", 1600, 4));
+		treeSetCotxes1.add(new CotxeComparat("Alfa Romeo", "Giulia", 2900, 6));
+		treeSetCotxes1.add(new CotxeComparat("Dacia", "Sandero", 1200, 4));
+		treeSetCotxes1.add(new CotxeComparat("Ford", "Focus", 2000, 4));
+		treeSetCotxes1.add(new CotxeComparat("Opel", "Insignia", 2200, 4));
+		treeSetCotxes1.add(new CotxeComparat("Seat", "Ibiza", 1600, 4));
 		
 		// fill 5 cars in the displacements comparator list number 2.
-		treeSetCotxes2.add(new ComparadorCilindrada("Alfa Romeo", "Giulia", 2900, 6));
-		treeSetCotxes2.add(new ComparadorCilindrada("Dacia", "Sandero", 1200, 4));
-		treeSetCotxes2.add(new ComparadorCilindrada("Ford", "Focus", 2000, 4));
-		treeSetCotxes2.add(new ComparadorCilindrada("Opel", "Insignia", 2200, 4));
-		treeSetCotxes2.add(new ComparadorCilindrada("Seat", "Ibiza", 1600, 4));
+		treeSetCotxes2.add(new CotxeComparat("Alfa Romeo", "Giulia", 2900, 6));
+		treeSetCotxes2.add(new CotxeComparat("Dacia", "Sandero", 1200, 4));
+		treeSetCotxes2.add(new CotxeComparat("Ford", "Focus", 2000, 4));
+		treeSetCotxes2.add(new CotxeComparat("Opel", "Insignia", 2200, 4));
+		treeSetCotxes2.add(new CotxeComparat("Seat", "Ibiza", 1600, 4));
 		
 		// fill 5 cars in the pot Fisc comparator list number 1.
 		treeSetCotxes3.add(new Cotxe("Alfa Romeo", "Giulia", 2900, 6));

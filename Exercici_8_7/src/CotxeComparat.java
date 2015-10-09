@@ -1,7 +1,7 @@
 
-public class ComparadorCilindrada extends Cotxe implements Comparable<Object> {
+public class CotxeComparat extends Cotxe implements Comparable<Object> {
 	
-	public ComparadorCilindrada(String marca, String model, int cilindrada, int cilindres){
+	public CotxeComparat(String marca, String model, int cilindrada, int cilindres){
 		super(marca, model, cilindrada, cilindres);
 	}
 	
